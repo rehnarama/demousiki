@@ -6,7 +6,7 @@ interface PageProps {
   }>;
 }
 
-export default function Page(props: PageProps) {
+export default async function Page(props: PageProps) {
   const params = await props.params;
   return (
     <div>
