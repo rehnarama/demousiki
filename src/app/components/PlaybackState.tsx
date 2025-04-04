@@ -1,6 +1,5 @@
 "use client";
 
-import { Button } from "@heroui/button";
 import { useSpotifyPlaybackState } from "../spotify/useSpotifyApi";
 import { Card, CardBody, Image, Slider } from "@heroui/react";
 import { useSpotifyContext } from "../spotify/useSpotifyContext";
